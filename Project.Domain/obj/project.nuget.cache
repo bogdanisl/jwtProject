@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "mhCdFZHFp+mV60vahatX0uCjmXPwYyymK040SFk1FPRiLmSyQnqTW+job9ABgmCa4R3oCOLZ9gCY5FobXqea8Q==",
+  "success": false,
+  "projectFilePath": "D:\\ШАГ\\JWT\\ApiPlusAngular\\Project.Domain\\Project.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User-PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
+    "C:\\Users\\User-PC\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.5\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.5.nupkg.sha512",
+    "C:\\Users\\User-PC\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
+    "C:\\Users\\User-PC\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.10.1\\microsoft.identitymodel.jsonwebtokens.6.10.1.nupkg.sha512",
+    "C:\\Users\\User-PC\\.nuget\\packages\\microsoft.identitymodel.logging\\6.10.1\\microsoft.identitymodel.logging.6.10.1.nupkg.sha512",
+    "C:\\Users\\User-PC\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.1\\microsoft.identitymodel.tokens.6.10.1.nupkg.sha512",
+    "C:\\Users\\User-PC\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.1\\system.identitymodel.tokens.jwt.6.10.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Authentication.JwtBearer 5.0.5 is not compatible with net50 (.NETFramework,Version=v5.0). Package Microsoft.AspNetCore.Authentication.JwtBearer 5.0.5 supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 5.0.5 is not compatible with net50 (.NETFramework,Version=v5.0). Package Microsoft.EntityFrameworkCore 5.0.5 supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.Identity.EntityFrameworkCore 5.0.5 is not compatible with net50 (.NETFramework,Version=v5.0). Package Microsoft.AspNetCore.Identity.EntityFrameworkCore 5.0.5 supports:\r\n  - net5.0 (.NETCoreApp,Version=v5.0)\r\n  - netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    }
+  ]
+}
